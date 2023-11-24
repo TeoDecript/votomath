@@ -1,0 +1,27 @@
+{
+    "name": "Votomath",
+    "description": "",
+    "dependencies": {
+        "circuit-playground": "*",
+        "crickit": "github:adafruit/pxt-crickit#v0.0.32",
+        "servo": "*",
+        "umons-i2c-sensors": "github:philippefortemps/pxt-umons-i2c-sensors#67bdc8800bba1927b90cc27b701d32de26533142"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.6.8",
+        "targetId": "adafruit"
+    },
+    "supportedTargets": [
+        "adafruit"
+    ],
+    "preferredEditor": "blocksprj"
+}
